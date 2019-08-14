@@ -30,14 +30,23 @@
     </Shell.Resources>
 
     <!-- Your Pages -->
-    <TabBar>
-        <Tab Title="Material">
+    <FlyoutItem  Title="Material">
+        <FlyoutItem.Icon>
+            <FontImageSource FontFamily="{StaticResource Material}" Glyph="&#xf09e;" Color="SkyBlue"/>
+        </FlyoutItem.Icon>
+        <Tab>
             <ShellContent ContentTemplate="{DataTemplate local:MaterialDesign}" />
         </Tab>
-        <Tab Title="Bootstrap">
+    </FlyoutItem>
+    
+    <FlyoutItem Title="Bootstrap">
+        <FlyoutItem.Icon>
+            <FontImageSource FontFamily="{StaticResource Material}" Glyph="&#xf116;" Color="SkyBlue" />
+        </FlyoutItem.Icon>
+        <Tab>
             <ShellContent ContentTemplate="{DataTemplate local:Bootstrap}" />
         </Tab>
-    </TabBar>
+    </FlyoutItem>
 
     <!-- Optional Templates 
     // These may be provided inline as below or as separate classes.
