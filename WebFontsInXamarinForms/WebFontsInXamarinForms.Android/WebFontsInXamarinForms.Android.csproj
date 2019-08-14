@@ -15,7 +15,6 @@
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
     <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
     <AndroidHttpClientHandlerType>Xamarin.Android.Net.AndroidClientHandler</AndroidHttpClientHandlerType>
@@ -104,7 +103,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\WebFontsInXamarinForms\WebFontsInXamarinForms.csproj">
-      <Project>{77728730-21CD-4A27-A562-151A68EA9783}</Project>
+      <Project>{6BA7F289-D4C4-48DB-B10E-816AA2836694}</Project>
       <Name>WebFontsInXamarinForms</Name>
     </ProjectReference>
   </ItemGroup>
